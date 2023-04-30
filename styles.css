@@ -1,0 +1,105 @@
+/* * 
+ * This is the CSS file for the project. 
+ * You can add your own CSS rules to customize the project.
+ * @author: Jovain Chisholm 000905188
+ */
+
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+/* Center images in container */
+.row-cols-1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for header */
+header {
+  width: 100%;
+  text-align: center;
+}
+
+/* Style for h1 in header */
+header h1 {
+  margin-bottom: 0;
+}
+
+/* Style for h2 in header */
+header h2 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+/* Style for footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Style for form label */
+.form-label {
+  font-weight: bold;
+}
+
+/* Style for button */
+.btn {
+  width: 100%;
+}
+
+/* Style for countdown timer */
+/* #countdown-timer {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+} */
+
+/* Style for update count */
+#update-count {
+  font-weight: bold;
+}
+
+/* Style for image container */
+
+.imageItemBlock {
+  height: 200px;
+  width: auto;
+  margin: 0 10px;
+}
+
+.imageItemBlock img {
+  height: 100%;
+  width: auto;
+}
+
+#main-console {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-family: monospace;
+  font-size: 1.2rem;
+  overflow: auto;
+}
+
+button {
+  padding: 8px;
+  margin: 0.5em 0.5em;
+}
+
+#image-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4em 0;
+}
